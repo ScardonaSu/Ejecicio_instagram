@@ -1,0 +1,88 @@
+
+img{
+    max-width: 100%;
+    width: 1000px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 17%;
+    margin: 0 auto;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 2rem 3rem;
+    margin-top: 2rem;
+
+}
+
+.img-insta img{
+    width: 200px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container:first-child{
+    color: rgb(134, 132, 132);
+    font-weight: bold;
+}
+
+.container a{
+    background-color: rgb(74, 142, 231);
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.container .registrate{
+    background-color: rgb(108, 162, 230);
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.container input{
+    width: 100%;
+    margin-bottom: 8px;
+    background-color: rgb(246, 246, 246);
+    border: 1px solid rgb(218, 218, 218);
+    padding: .5rem;
+    font-size: 14px;
+}
+
+.container .comentario{
+    font-size: 15px;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.links{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.links a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+.meta{
+    display: flex;
+    justify-content: center;
+}
+
+.meta a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+
+}
+
+
